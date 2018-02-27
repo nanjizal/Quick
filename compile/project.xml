@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <meta title="Quick" package="net.nanjizal.quick" version="1.0.0" company="Nanjizal" />
+    <app main="quick.FlashQuick" path="../binOpenFL/Exports" file="FlashQuick" />
+    <source path="../src/" />
+    <haxelib name="openfl" />
+    <!--  <haxelib name="" /> -->
+    <window width="1024" height="768" background="0x181818" unless="mobile" />
+    <!--assets path="../binOpenFL/Assets" rename="assets" exclude="openfl.svg" /-->
+    <!--<icon path="../binLuxe/Assets/openfl.svg" /-->
+</project>

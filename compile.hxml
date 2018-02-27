@@ -1,0 +1,10 @@
+#-cmd open -a Terminal .
+-cmd cd compile
+#-cmd haxe compileLime.hxml
+-cmd haxe compileNME.hxml
+#-cmd haxe compileHeapsWeb.hxml
+#-cmd haxe compileCanvas.hxml
+#-cmd haxe compileWebGL.hxml
+#-cmd haxe compileLuxeWeb.hxml
+#-cmd haxe compileSVG.hxml
+#-cmd node Kha/make -t html5

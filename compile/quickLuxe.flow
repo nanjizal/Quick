@@ -1,0 +1,35 @@
+{
+	luxe:{
+		window: {
+			width:1024,
+			height:768,
+			title:'Quick',
+			fullscreen:false,
+			resizable:true,
+			borderless:false
+		}
+	},
+
+	project : {
+		name : 'Quick',
+		version : '0.0.0',
+		author : 'Nanjizal',
+		app : {
+			main: 'quick.LuxeQuick',
+			name:'LuxeQuick',
+			output: '../binLuxe',
+			codepaths: '../src',
+			package : 'net.nanjizal.quick'
+		},
+		build : {
+			dependencies : {
+				luxe : '*'
+			}
+		},
+
+        files : {
+          assets : 'assets/',
+          index : { path:'custom_index.html => index.html', template:'project', not_listed:true }
+        }
+	}
+}
